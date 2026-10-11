@@ -226,7 +226,7 @@ The excluded model files must be regenerated before evaluation.
 - `results/`: provenance, split assignments, configurations, training histories,
   plots, predictions without conversation text, and evaluation metrics.
 - `requirements.txt`: development package versions.
-- Project PDF: added as the final submission report.
+- Project PDF: [Project report](CMPSC448_Arjun_Gupta_Report.pdf): methods, results, analyses, and lessons.
 
 ## Limitations
 
