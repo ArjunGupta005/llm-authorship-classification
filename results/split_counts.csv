@@ -1,0 +1,4 @@
+split,Claude,GPT,Llama
+train,670,693,693
+validation,95,99,99
+test,192,198,198

@@ -1,0 +1,28 @@
+{
+  "style_feature_names": [
+    "characters",
+    "words",
+    "mean_word_length",
+    "first_100_word_ttr",
+    "newlines_per_1000_chars",
+    "bullet_lines",
+    "numbered_lines",
+    "code_fences",
+    "question_marks_per_1000_chars",
+    "exclamations_per_1000_chars",
+    "punctuation_fraction"
+  ],
+  "style_text_scope": "Full response",
+  "lexical_ablation": "Remove punctuation, underscores, and newline tokens after selecting the original first 256 response tokens.",
+  "classifier": "Logistic regression",
+  "C": 1.0,
+  "seed": 42,
+  "test_evaluated": false,
+  "limitations": [
+    "Style features can reflect task mix as well as generator style.",
+    "Type-token ratio remains length-sensitive for responses under 100 words.",
+    "Ablation changes the feature space and creates new word adjacencies.",
+    "Style-only models use full responses; TF-IDF uses truncated responses.",
+    "These analyses do not directly attribute CNN or LSTM decisions."
+  ]
+}

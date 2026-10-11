@@ -1,0 +1,15 @@
+{
+  "model": "TF-IDF plus logistic regression",
+  "ngram_range": [
+    1,
+    2
+  ],
+  "max_features": 20000,
+  "min_df": 2,
+  "sublinear_tf": true,
+  "C": 1.0,
+  "max_iter": 2000,
+  "seed": 42,
+  "tokenization": "Same tokenizer and budgets as neural networks",
+  "test_evaluated": false
+}

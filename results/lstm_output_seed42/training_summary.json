@@ -1,0 +1,12 @@
+{
+  "run_name": "lstm_output_seed42",
+  "best_epoch": 4,
+  "best_validation_metrics": {
+    "loss": 0.42982031120171726,
+    "accuracy": 0.825938566552901,
+    "macro_f1": 0.8256235827664399
+  },
+  "epochs_completed": 7,
+  "total_seconds": 485.8435404000338,
+  "test_evaluated": false
+}

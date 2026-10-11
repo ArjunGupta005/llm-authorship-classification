@@ -1,0 +1,4 @@
+experiment,validation_accuracy,validation_macro_f1
+original_output_tfidf,0.8873720136518771,0.8879941345072911
+tfidf_without_punctuation_or_newlines,0.8737201365187713,0.8730169479986061
+style_features_only,0.5836177474402731,0.5801478666014983

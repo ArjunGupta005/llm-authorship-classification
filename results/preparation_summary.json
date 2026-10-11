@@ -1,0 +1,57 @@
+{
+  "seed": 42,
+  "original_examples": 3000,
+  "language_excluded_examples": 63,
+  "language_exclusions_by_family": {
+    "Claude": 43,
+    "GPT": 10,
+    "Llama": 10
+  },
+  "total_examples": 2937,
+  "duplicate_groups": 2877,
+  "split_counts": {
+    "Claude": {
+      "train": 670,
+      "validation": 95,
+      "test": 192
+    },
+    "GPT": {
+      "train": 693,
+      "validation": 99,
+      "test": 198
+    },
+    "Llama": {
+      "train": 693,
+      "validation": 99,
+      "test": 198
+    }
+  },
+  "domain_counts": {
+    "Claude": {
+      "coding": 119,
+      "general": 777,
+      "math": 8,
+      "summarization": 20,
+      "writing": 33
+    },
+    "GPT": {
+      "coding": 99,
+      "general": 825,
+      "math": 16,
+      "summarization": 11,
+      "writing": 39
+    },
+    "Llama": {
+      "coding": 107,
+      "general": 791,
+      "math": 8,
+      "summarization": 13,
+      "writing": 71
+    }
+  },
+  "domain_method": "Ordered prompt keyword rules; preliminary heuristic labels.",
+  "language_method": "langdetect on prompt and response separately after removing fenced code and URLs. English and uncertain examples retained.",
+  "language_limitations": "Automatic detection can misclassify technical or multilingual text. Short/code-heavy examples remain uncertain.",
+  "leakage_checks": "Exact normalized prompts, responses, and conversation IDs are grouped. Semantic near-duplicates are not guaranteed to be grouped.",
+  "manual_review_completed": false
+}

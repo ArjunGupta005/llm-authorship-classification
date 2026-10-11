@@ -1,0 +1,13 @@
+{
+  "run_name": "lstm_output_no_writing_seed42",
+  "best_epoch": 6,
+  "best_validation_metrics": {
+    "loss": 0.5229085478661717,
+    "accuracy": 0.8405797101449275,
+    "macro_f1": 0.840487461256692
+  },
+  "epochs_completed": 9,
+  "total_seconds": 653.4793209000491,
+  "held_out_domain": "writing",
+  "test_evaluated": false
+}

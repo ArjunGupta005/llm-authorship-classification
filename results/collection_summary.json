@@ -1,0 +1,49 @@
+{
+  "dataset": "lmsys/lmsys-chat-1m",
+  "revision": "200748d9d3cddcc9d782887541057aca0b18c5da",
+  "seed": 42,
+  "records_scanned": 500000,
+  "candidate_counts": {
+    "GPT": 1285,
+    "Claude": 1500,
+    "Llama": 1500
+  },
+  "selected_counts": {
+    "Llama": 1000,
+    "Claude": 1000,
+    "GPT": 1000
+  },
+  "rejection_counts": {
+    "not_english": 4201,
+    "redacted": 4196,
+    "explicit_model_or_provider_name": 295,
+    "prompt_length": 693,
+    "response_length": 457,
+    "moderation_flagged": 88,
+    "candidate_pool_full": 16004,
+    "duplicate_pair": 3
+  },
+  "models": {
+    "gpt-4": "GPT",
+    "claude-1": "Claude",
+    "llama-2-13b-chat": "Llama"
+  },
+  "sampling": "Seeded random sample from capped eligible candidate pools within the scanned dataset prefix; not a uniform sample of the entire source dataset.",
+  "filters": {
+    "language": "English",
+    "first_turn_only": true,
+    "prompt_characters": [
+      20,
+      10000
+    ],
+    "response_characters": [
+      100,
+      20000
+    ],
+    "exclude_redacted": true,
+    "exclude_explicit_moderation_flags": true,
+    "exclude_identity_pattern": "\\b(chatgpt|openai|gpt[- ]?\\d*|claude|anthropic|llama|meta ai|vicuna|google|gemini|palm)\\b",
+    "exclude_email_addresses": true,
+    "deduplicate": "conversation ID and normalized prompt-response pair"
+  }
+}

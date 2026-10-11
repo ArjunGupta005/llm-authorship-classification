@@ -1,0 +1,16 @@
+split,domain,Claude,GPT,Llama
+test,coding,25,21,16
+test,general,151,168,167
+test,math,2,3,1
+test,summarization,3,1,0
+test,writing,11,5,14
+train,coding,85,72,84
+train,general,543,571,544
+train,math,6,12,7
+train,summarization,15,9,12
+train,writing,21,29,46
+validation,coding,9,6,7
+validation,general,83,86,80
+validation,math,0,1,0
+validation,summarization,2,1,1
+validation,writing,1,5,11

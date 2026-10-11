@@ -1,0 +1,13 @@
+{
+  "run_name": "cnn_output_no_writing_seed42",
+  "best_epoch": 8,
+  "best_validation_metrics": {
+    "loss": 0.24608687343804733,
+    "accuracy": 0.9130434782608695,
+    "macro_f1": 0.9126553775979424
+  },
+  "epochs_completed": 11,
+  "total_seconds": 80.15508980001323,
+  "held_out_domain": "writing",
+  "test_evaluated": false
+}

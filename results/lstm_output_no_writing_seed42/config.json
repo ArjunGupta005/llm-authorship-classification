@@ -1,0 +1,44 @@
+{
+  "model": "lstm",
+  "mode": "output",
+  "seed": 42,
+  "device": "cpu",
+  "torch_version": "2.14.1+cpu",
+  "held_out_domain": "writing",
+  "epochs": 15,
+  "patience": 3,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "gradient_clip_norm": 1.0,
+  "vocab_size": 20000,
+  "labels": [
+    "Claude",
+    "GPT",
+    "Llama"
+  ],
+  "prompt_limit": 127,
+  "response_limit": 256,
+  "model_kwargs": {
+    "vocab_size": 20000,
+    "embedding_dim": 100,
+    "num_classes": 3,
+    "dropout": 0.4,
+    "hidden_size": 64
+  },
+  "parameter_count": 2085379,
+  "training_counts": {
+    "Llama": 647,
+    "Claude": 649,
+    "GPT": 664
+  },
+  "validation_counts": {
+    "GPT": 94,
+    "Claude": 94,
+    "Llama": 88
+  },
+  "training_file_sha256": "6ae445802bc562f0a817729e238040fe8bd8c18452aed1e526066c1cd31db945",
+  "validation_file_sha256": "12d80361bed1080e80be3fd8dcf77950dcf61b1e1232264e27c4c358c5b2765e",
+  "selection_metric": "non_writing_validation_macro_f1",
+  "domain_labels": "Preliminary prompt keyword labels"
+}

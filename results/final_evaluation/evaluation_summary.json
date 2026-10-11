@@ -1,0 +1,21 @@
+{
+  "test_file_sha256": "b02e8e6292c505b3b5f72e6241360d06edc5a92c29bbef846b0f3bf17224c310",
+  "test_examples": 588,
+  "test_family_counts": {
+    "Claude": 192,
+    "Llama": 198,
+    "GPT": 198
+  },
+  "writing_test_family_counts": {
+    "Llama": 14,
+    "GPT": 5,
+    "Claude": 11
+  },
+  "uniform_random_expected_accuracy": 0.3333333333333333,
+  "majority_test_class_accuracy": 0.336734693877551,
+  "notes": [
+    "Checkpoints selected using validation, not test performance.",
+    "Cross-domain writing results use a small, heuristic-labeled subset.",
+    "Comparisons use one training seed; differences are descriptive."
+  ]
+}

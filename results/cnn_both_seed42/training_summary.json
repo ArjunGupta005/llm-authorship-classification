@@ -1,0 +1,12 @@
+{
+  "run_name": "cnn_both_seed42",
+  "best_epoch": 9,
+  "best_validation_metrics": {
+    "loss": 0.22800938507904372,
+    "accuracy": 0.9180887372013652,
+    "macro_f1": 0.9179716765646413
+  },
+  "epochs_completed": 12,
+  "total_seconds": 142.98219359992072,
+  "test_evaluated": false
+}
